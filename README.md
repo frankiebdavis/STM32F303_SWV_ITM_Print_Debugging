@@ -11,15 +11,16 @@ Using SWV allows developers to debug real-time variables **without consuming UAR
 To configure STM32CubeIDE and STM32’s core debug peripherals to:
 - Enable `printf()` via SWV and ITM
 - Display variable values in real-time
+- Monitor variables using **Live Expressions** for deeper insight
 - Avoid UART usage for debug output
 
 ---
 
-## 🛠 Hardware Requirements
+## 🛠 Project Requirements
 
 - STM32F303RE Nucleo board  
 - USB cable (ST-Link for power + debug)  
-- STM32CubeIDE with SWV support  
+- STM32CubeIDE
 
 ---
 

@@ -77,7 +77,3 @@ SWV debugging is lightweight, pin-free, and ideal for:
 | Can run alongside UART apps  | ❌ Conflicts     | ✅ Compatible |
 
 ---
-
-## 📘 License
-
-This project is licensed under the [MIT License](LICENSE).  

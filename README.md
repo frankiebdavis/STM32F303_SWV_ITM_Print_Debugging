@@ -1,4 +1,4 @@
-# 🧠 SWV Debug Print Demo — STM32F303RE
+# 🧠 SWV Debug Print Demo
 
 This project demonstrates how to use **`printf()`-style debugging** over **Serial Wire Viewer (SWV)** using **ITM** on the STM32F303RE Nucleo board. Unlike UART-based debugging, SWV lets developers **view debug output without using I/O pins** — thanks to the ARM Cortex-M’s built-in trace instrumentation. This is ideal for boards where UARTs are already occupied or unavailable.
 

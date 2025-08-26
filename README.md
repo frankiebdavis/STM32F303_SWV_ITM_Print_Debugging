@@ -1,16 +1,16 @@
-# 🧠 SWV Debug Print Demo
+# SWV Debug Print Demo
 
 This project demonstrates how to use **`printf()`-style debugging** over **Serial Wire Viewer (SWV)** using **ITM** on the STM32F303RE Nucleo board. Unlike UART-based debugging, SWV lets developers **view debug output without using I/O pins** — thanks to the ARM Cortex-M’s built-in trace instrumentation. This is ideal for boards where UARTs are already occupied or unavailable.
 
 ---
 
-## ❓ Problem
+## Problem
 
 How can developers stream debug output from an STM32 without wiring up UART, consuming pins, or interfering with application resources?
 
 ---
 
-## 🔨 Method
+## Method
 
 - **Global Counter:** Incremented every second inside `main()`.  
 - **Delay + Print:** Use `HAL_Delay(1000)` and `printf()` to output the value.  
@@ -26,7 +26,7 @@ count++;
 
 ---
 
-## ✅ Result
+## Result
 
 The console output shows:  
 The counter value is: 0  
@@ -39,7 +39,7 @@ You can also add `count` to **Live Expressions** to monitor its value update in 
 
 ---
 
-## 🔧 Hardware
+## Hardware
 
 - **STM32F303RE** Nucleo board  
 - **ST-Link** (power, programming, SWV debug)  
@@ -47,7 +47,7 @@ You can also add `count` to **Live Expressions** to monitor its value update in 
 
 ---
 
-## 💻 SWV Setup (CubeIDE)
+## SWV Setup (CubeIDE)
 
 1. Start a Debug session.  
 2. Open **SWV ITM Console**.  
@@ -57,7 +57,7 @@ You can also add `count` to **Live Expressions** to monitor its value update in 
 
 ---
 
-## 🧠 Takeaways
+## Takeaways
 
 - SWV provides **lightweight, pin-free debugging**.  
 - No UART setup or wiring required.  
